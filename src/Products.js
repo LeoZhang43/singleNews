@@ -1,6 +1,7 @@
 import React from 'react';
 
-const Product = ({ author, title, description, url, urlToImage}) => {
+const Product = ({ author, title, description, url, urlToImage, id}) => {
+  console.log({id});  
   return (
     <div>
       <h2>{title}</h2>
